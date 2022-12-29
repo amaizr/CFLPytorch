@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F 
 import math
-from torchvision.models.utils import load_state_dict_from_url
 
 class Conv2dDynamicSamePadding(nn.Conv2d):
     """ 2D Convolutions like TensorFlow, for a dynamic image size """
